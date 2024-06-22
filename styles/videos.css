@@ -1,0 +1,52 @@
+.video-grid {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 18px;
+  row-gap: 40px;
+}
+.video-author {
+  font-size: 12px;
+  color: #606060;
+  line-height: 1.5;
+  margin-top: 8px;
+  margin-bottom: 0;
+}
+.video-stats {
+  font-size: 12px;
+  color: #606060;
+  margin-top: 0;
+  line-height: 1.5;
+}
+.video-title {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.thumbnail-row {
+  position: relative;
+}
+.thumbnail-row div {
+  background: black;
+  color: white;
+  max-width: 30px;
+  padding: 2px 4px;
+  font-size: 14px;
+  position: absolute;
+  bottom: 10px;
+  right: 5px;
+}
+.thumbnail {
+  width: 100%;
+}
+.video-info-grid {
+  display: grid;
+  grid-template-columns: 50px 1fr;
+  margin-top: 10px;
+}
+
+.profile-picture {
+  width: 40px;
+  border-radius: 50px;
+}

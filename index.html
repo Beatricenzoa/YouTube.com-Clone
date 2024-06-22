@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/videos.css" />
+    <link rel="stylesheet" href="styles/general.css" />
+    <link rel="stylesheet" href="styles/header.css" />
+    <link rel="stylesheet" href="styles/sidebar.css" />
+    <title>Youtube.com clone</title>
+  </head>
+  <body>
+    <header>
+      <div class="left-section">
+        <img
+          class="hamburger-menu-icon"
+          src="icons/hamburger-menu.svg"
+          alt=""
+        />
+        <img class="youtube-logo-icon" src="icons/youtube-logo.svg" alt="" />
+      </div>
+      <div class="middle-section">
+        <input class="search-bar" type="search" placeholder="Search" />
+        <div class="search-tooltip">
+          <img class="search-icon" src="icons/search.svg" alt="" />
+          <div class="tooltip">Search</div>
+        </div>
+        <div class="voice-search-tooltip">
+          <img class="voice-search-icon" src="icons/voice-search-icon.svg" />
+          <div class="tooltip">Search with your voice</div>
+        </div>
+      </div>
+      <div class="right-section">
+        <div class="upload-tooltip">
+          <img class="upload-icon" src="icons/upload.svg" alt="" />
+          <div class="tooltip">Create</div>
+        </div>
+        <div class="youtube-apps-tooltip">
+          <img class="youtube-apps-icon" src="icons/youtube-apps.svg" alt="" />
+          <div class="tooltip">YouTube Apps</div>
+        </div>
+        <div class="notifications-count">
+          <img
+            class="notifications-icon"
+            src="icons/notifications.svg"
+            alt=""
+          />
+          <div class="notifications">3</div>
+          <div class="tooltip">Notifications</div>
+        </div>
+        <div>
+          <img
+            class="current-channel-picture"
+            src="channels/beatrice.png"
+            alt=""
+          />
+        </div>
+      </div>
+    </header>
+
+    <section class="sidebar">
+      <div class="sidebar-icon">
+        <img src="icons/home.svg" alt="" />
+        <p>Home</p>
+      </div>
+      <div class="sidebar-icon">
+        <img src="icons/explore.svg" alt="" />
+        <p>Explore</p>
+      </div>
+      <div class="sidebar-icon">
+        <img src="icons/subscriptions.svg" alt="" />
+        <p>Subscriptions</p>
+      </div>
+      <div class="sidebar-icon">
+        <img src="icons/originals.svg" alt="" />
+        <p>Originals</p>
+      </div>
+      <div class="sidebar-icon">
+        <img src="icons/youtube-music.svg" alt="" />
+        <p>YouTube Music</p>
+      </div>
+      <div class="sidebar-icon">
+        <img src="icons/library.svg" alt="" />
+        <p>Library</p>
+      </div>
+    </section>
+    <main class="video-grid">
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/thumbnail-1.jpg" />
+          <div>1:20</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="channels/channel-1.jpg" alt="" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">SheCodes Online Workshop</p>
+            <p class="video-author">SheCodes</p>
+            <p class="video-stats">154K views ·3 years ago</p>
+          </div>
+        </div>
+      </div>
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/thumbnail-2.jpg" />
+          <div>2:49</div>
+        </div>
+
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="channels/channel-2.jpg" alt="" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">Enjoy The Magical Taste Of Kenya</p>
+            <p class="video-author">Magical Kenya</p>
+            <p class="video-stats">101K views ·7 months ago</p>
+          </div>
+        </div>
+      </div>
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/thumbnail-3.jpg" />
+          <div>7:58</div>
+        </div>
+
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="channels/channel-3.jpg" alt="" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">Ask, Believe, Work | Motivated +</p>
+            <p class="video-author">The Official Steve Harvey</p>
+            <p class="video-stats">1.7M views ·4 years ago</p>
+          </div>
+        </div>
+      </div>
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/thumbnail-4.jpg" />
+          <div>14:43</div>
+        </div>
+
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="channels/channel-4.jpg" alt="" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Former FBI Agent Explains How to Read Body Language | Tradecraft |
+              WIRED
+            </p>
+            <p class="video-author">WIRED</p>
+            <p class="video-stats">51M views ·5 years ago</p>
+          </div>
+        </div>
+      </div>
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/thumbnail-5.webp" />
+          <div>14:20</div>
+        </div>
+
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="channels/channel-5.jpeg" alt="" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Talking Tech and AI with Google CEO Sundar Pichai!
+            </p>
+            <p class="video-author">Marques Brownlee</p>
+            <p class="video-stats">3.4M views ·6 months ago</p>
+          </div>
+        </div>
+      </div>
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/thumbnail-6.webp" />
+          <div>19:59</div>
+        </div>
+
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="channels/channel-6.jpeg" alt="" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Anything You Can Fit In The Circle I'll Pay For
+            </p>
+            <p class="video-author">MrBeast</p>
+            <p class="video-stats">141M views ·1 year ago</p>
+          </div>
+        </div>
+      </div>
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/thumbnail-7.webp" />
+          <div>7:12</div>
+        </div>
+
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="channels/channel-7.jpeg" alt="" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Inside The World's Biggest Passenger Plane
+            </p>
+            <p class="video-author">Tech Vision</p>
+            <p class="video-stats">3.7M views ·10 months ago</p>
+          </div>
+        </div>
+      </div>
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/thumbnail-8.webp" />
+          <div>4:10</div>
+        </div>
+
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="channels/channel-8.jpeg" alt="" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Dubai's Crazy Underwater Train and Other Things #Only in Dubai
+            </p>
+            <p class="video-author">Destination Tips</p>
+            <p class="video-stats">3M views ·1 year ago</p>
+          </div>
+        </div>
+      </div>
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/thumbnail-9.webp" />
+          <div>4:51</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="channels/channel-9.jpeg" alt="" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              What would happen if you didn't drink water? -Mia Nacamulli
+            </p>
+            <p class="video-author">TED-Ed</p>
+            <p class="video-stats">12M views ·5 years ago</p>
+          </div>
+        </div>
+      </div>
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/thumbnail-10.webp" />
+          <div>7:53</div>
+        </div>
+
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img
+              class="profile-picture"
+              src="channels/channel-10.jpeg"
+              alt=""
+            />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              How The World's Largest Cruise Ship Make 30,000 Meals Every Day
+            </p>
+            <p class="video-author">Business Insider</p>
+            <p class="video-stats">14M views ·1 year ago</p>
+          </div>
+        </div>
+      </div>
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/thumbnail-11.webp" />
+          <div>13:17</div>
+        </div>
+
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img
+              class="profile-picture"
+              src="channels/channel-11.jpeg"
+              alt=""
+            />
+          </div>
+          <div class="video-info">
+            <p class="video-title">The SECRET to Super Human STRENGTH</p>
+            <p class="video-author">ThenX</p>
+            <p class="video-stats">20M views ·3 years ago</p>
+          </div>
+        </div>
+      </div>
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/thumbnail-12.webp" />
+          <div>11:17</div>
+        </div>
+
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img
+              class="profile-picture"
+              src="channels/channel-12.jpeg"
+              alt=""
+            />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Kadane's Algorithm to Maximum Sum Subarray Problem
+            </p>
+            <p class="video-author">CS Dojo</p>
+            <p class="video-stats">519K views ·5 years ago</p>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
